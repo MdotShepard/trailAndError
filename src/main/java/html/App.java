@@ -8,12 +8,7 @@ import org.openqa.selenium.support.ui.Select;
 
 import java.util.Scanner;
 
-/**
- * Hello world!
- */
 public class App {
-
-    String password;
 
     public static void main(String[] args) throws InterruptedException {
         // declaration and instantiation of objects/variables
@@ -88,6 +83,4 @@ public class App {
         WebElement pwd = driver.findElement(By.name("passw"));
         pwd.sendKeys(password);
     }
-
-
 }
